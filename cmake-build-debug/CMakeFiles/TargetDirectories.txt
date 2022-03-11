@@ -1,0 +1,3 @@
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/TestClasses/cmake-build-debug/CMakeFiles/TestClasses.dir
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/TestClasses/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/TestClasses/cmake-build-debug/CMakeFiles/rebuild_cache.dir
