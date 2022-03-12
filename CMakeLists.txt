@@ -21,4 +21,4 @@ add_executable(TestClasses
         TestFiles/spies.h
         force.h
         DefaultFiles/ground.h
-        howitzer.h)
+        howitzer.h "force.cpp" "mass.h" "mass.cpp")

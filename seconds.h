@@ -5,6 +5,7 @@
 class Seconds
 {
 public:
+	Seconds(double seconds);
 	Velocity operator*(Acceleration acc);
 private:
 	double seconds;

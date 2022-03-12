@@ -8,6 +8,11 @@ class Velocity
 public:
    Velocity() = default;
    Velocity(double dx, double dy);
+
+   Velocity operator += (Acceleration acc);        // all these operators need to be implemented.
+   double operator* (Velocity velocity);
+   Velocity operator+(Velocity velocity);
+   Velocity operator*(double velocity);
 #ifndef DEBUG
 private:
 #endif
