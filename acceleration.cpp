@@ -1,8 +1,8 @@
+#pragma once
 #include "acceleration.h"
 #include <cmath>
-#pragma once
 
-Acceleration::Acceleration(double xAcceleration = 0.0, double yAcceleration = 0.0)
+Acceleration::Acceleration(double xAcceleration, double yAcceleration)
 {
 	ddx = xAcceleration;
 	ddy = yAcceleration;

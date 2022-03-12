@@ -89,6 +89,9 @@
 		<Unit filename="C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/TestFiles/test_Environment.h">
 			<Option target="TestClasses"/>
 		</Unit>
+		<Unit filename="C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/acceleration.cpp">
+			<Option target="TestClasses"/>
+		</Unit>
 		<Unit filename="C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/acceleration.h">
 			<Option target="TestClasses"/>
 		</Unit>
@@ -108,6 +111,9 @@
 			<Option target="TestClasses"/>
 		</Unit>
 		<Unit filename="C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/projectile.h">
+			<Option target="TestClasses"/>
+		</Unit>
+		<Unit filename="C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/velocity.cpp">
 			<Option target="TestClasses"/>
 		</Unit>
 		<Unit filename="C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/velocity.h">

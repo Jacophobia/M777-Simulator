@@ -7,6 +7,7 @@
 class Force
 {
 public:
+   Force(double newtons = 0.0) { N = newtons; }
 #ifndef DEBUG
 private:
 #endif

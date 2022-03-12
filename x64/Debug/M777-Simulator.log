@@ -1,0 +1,16 @@
+﻿  acceleration.cpp
+  environment.cpp
+  main.cpp
+  position.cpp
+  seconds.cpp
+  trajectory.cpp
+  velocity.cpp
+  Generating Code...
+main.obj : error LNK2019: unresolved external symbol "public: class Force __cdecl Environment::getAirResistance(void)" (?getAirResistance@Environment@@QEAA?AVForce@@XZ) referenced in function "private: void __cdecl TestEnvironment::getForceOfAirResistance_testNegVelocityNegAltitude(void)" (?getForceOfAirResistance_testNegVelocityNegAltitude@TestEnvironment@@AEAAXXZ)
+main.obj : error LNK2019: unresolved external symbol "public: double __cdecl Environment::getLinearInterpolation(double,double,double,double,double)" (?getLinearInterpolation@Environment@@QEAANNNNNN@Z) referenced in function "private: static void __cdecl TestEnvironment::getLinearInterpolation_testX1EqualToX2(void)" (?getLinearInterpolation_testX1EqualToX2@TestEnvironment@@CAXXZ)
+main.obj : error LNK2019: unresolved external symbol "public: double __cdecl Environment::getSpeedOfSound(double)" (?getSpeedOfSound@Environment@@QEAANN@Z) referenced in function "private: void __cdecl TestEnvironment::getSpeedOfSound_testAltitudeIs1000(void)" (?getSpeedOfSound_testAltitudeIs1000@TestEnvironment@@AEAAXXZ)
+main.obj : error LNK2019: unresolved external symbol "public: class Acceleration __cdecl Environment::getGravitationalAcceleration(double)" (?getGravitationalAcceleration@Environment@@QEAA?AVAcceleration@@N@Z) referenced in function "private: void __cdecl TestEnvironment::getGravitationalAcceleration_testAltitudeIs1000(void)" (?getGravitationalAcceleration_testAltitudeIs1000@TestEnvironment@@AEAAXXZ)
+main.obj : error LNK2019: unresolved external symbol "public: double __cdecl Environment::getAirDensity(double)" (?getAirDensity@Environment@@QEAANN@Z) referenced in function "private: void __cdecl TestEnvironment::getAirDensity_testAltitudeIs1000(void)" (?getAirDensity_testAltitudeIs1000@TestEnvironment@@AEAAXXZ)
+main.obj : error LNK2019: unresolved external symbol "public: double __cdecl Environment::getDragCoefficient(double)" (?getDragCoefficient@Environment@@QEAANN@Z) referenced in function "private: void __cdecl TestEnvironment::getDragCoefficient_testMachIs3Point940(void)" (?getDragCoefficient_testMachIs3Point940@TestEnvironment@@AEAAXXZ)
+main.obj : error LNK2019: unresolved external symbol "public: double __cdecl Environment::getMach(void)" (?getMach@Environment@@QEAANXZ) referenced in function "private: void __cdecl TestEnvironment::getMach_testVelocityIsNeg(void)" (?getMach_testVelocityIsNeg@TestEnvironment@@AEAAXXZ)
+C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\x64\Debug\M777-Simulator.exe : fatal error LNK1120: 7 unresolved externals

@@ -13,10 +13,15 @@ public:
 
    virtual void reset() {}
 
-   virtual const Velocity& getVelocity() { return vel; }
+   virtual const Velocity& getVelocity() const { return vel; }
+
+   virtual double getAltitude() const { return altitude; }
+
+   virtual double getArea() const {return area; }
 #ifndef DEBUG
 private:
 #endif
    double altitude;
    Velocity vel;
+   const double area = 0.018842;
 };

@@ -128,6 +128,30 @@ TestClasses/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/build
 .PHONY : TestClasses/fast
 
+acceleration.obj: acceleration.cpp.obj
+.PHONY : acceleration.obj
+
+# target to build an object file
+acceleration.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/acceleration.cpp.obj
+.PHONY : acceleration.cpp.obj
+
+acceleration.i: acceleration.cpp.i
+.PHONY : acceleration.i
+
+# target to preprocess a source file
+acceleration.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/acceleration.cpp.i
+.PHONY : acceleration.cpp.i
+
+acceleration.s: acceleration.cpp.s
+.PHONY : acceleration.s
+
+# target to generate assembly for a file
+acceleration.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/acceleration.cpp.s
+.PHONY : acceleration.cpp.s
+
 environment.obj: environment.cpp.obj
 .PHONY : environment.obj
 
@@ -176,6 +200,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+velocity.obj: velocity.cpp.obj
+.PHONY : velocity.obj
+
+# target to build an object file
+velocity.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/velocity.cpp.obj
+.PHONY : velocity.cpp.obj
+
+velocity.i: velocity.cpp.i
+.PHONY : velocity.i
+
+# target to preprocess a source file
+velocity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/velocity.cpp.i
+.PHONY : velocity.cpp.i
+
+velocity.s: velocity.cpp.s
+.PHONY : velocity.s
+
+# target to generate assembly for a file
+velocity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/velocity.cpp.s
+.PHONY : velocity.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -185,12 +233,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... TestClasses
+	@echo ... acceleration.obj
+	@echo ... acceleration.i
+	@echo ... acceleration.s
 	@echo ... environment.obj
 	@echo ... environment.i
 	@echo ... environment.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... velocity.obj
+	@echo ... velocity.i
+	@echo ... velocity.s
 .PHONY : help
 
 

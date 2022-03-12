@@ -7,7 +7,7 @@
 class Acceleration
 {
 public:
-   Acceleration(double xAcceleration, double yAcceleration);
+   Acceleration(double xAcceleration = 0.0, double yAcceleration = 0.0);
    double getTotalAcceleration() const;
    double getDDX();
    double getDDY();

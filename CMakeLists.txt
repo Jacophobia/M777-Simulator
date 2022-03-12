@@ -16,7 +16,9 @@ add_executable(TestClasses
 #        TestFiles/test_Trajectory.h
 #        TestFiles/test_Velocity.h
         acceleration.h
+        acceleration.cpp
         velocity.h
+        velocity.cpp
         projectile.h
         TestFiles/spies.h
         force.h
