@@ -6,51 +6,35 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/TestClasses/DefaultFiles/ground.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/DefaultFiles/ground.h
 
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/TestClasses/TestFiles/spies.h
-../velocity.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/TestClasses/velocity.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/acceleration.h
 
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/TestClasses/TestFiles/test_Environment.h
-../environment.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/TestClasses/environment.h
-cassert
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/environment.cpp
+array
 -
-spies.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/TestClasses/TestFiles/spies.h
-../velocity.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/TestClasses/velocity.h
-../acceleration.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/TestClasses/acceleration.h
+environment.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/environment.h
 
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/TestClasses/acceleration.h
-
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/TestClasses/environment.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/environment.h
 acceleration.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/TestClasses/acceleration.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/acceleration.h
 velocity.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/TestClasses/velocity.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/velocity.h
 projectile.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/TestClasses/projectile.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/projectile.h
 force.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/TestClasses/force.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/force.h
 howitzer.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/TestClasses/howitzer.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/howitzer.h
 DefaultFiles/ground.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/TestClasses/DefaultFiles/ground.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/DefaultFiles/ground.h
 
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/TestClasses/force.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/force.h
 
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/TestClasses/howitzer.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/howitzer.h
 
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/TestClasses/main.cpp
-iostream
--
-TestFiles/test_Environment.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/TestClasses/TestFiles/test_Environment.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/projectile.h
 
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/TestClasses/projectile.h
-
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/TestClasses/velocity.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/velocity.h
 

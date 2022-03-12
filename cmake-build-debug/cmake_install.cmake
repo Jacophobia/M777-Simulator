@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/TestClasses
+# Install script for directory: C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/TestClasses/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

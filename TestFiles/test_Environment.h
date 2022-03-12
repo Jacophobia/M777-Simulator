@@ -2,6 +2,7 @@
 
 #include "../environment.h"
 #include <cassert>
+#include <cmath>
 #include "spies.h"
 #include "../velocity.h"
 #include "../acceleration.h"
@@ -86,9 +87,35 @@ public:
       draw_test();
    }
 private:
+   static bool aboutEquals(double val1, double val2)
+   {
+      if(abs(val1 - val2) < 0.001)
+      {
+         return true;
+      }
+      else
+      {
+         std::cout << val1 << " != " << val2 << std::endl;
+         return false;
+      }
+   }
+
+   static bool isEqual(double val1, double val2)
+   {
+      if (val1 == val2)
+      {
+         return true;
+      }
+      else
+      {
+         std::cout << val1 << " != " << val2 << std::endl;
+         return false;
+      }
+   }
+
    // x1, y1, x2, y2, x3
    // x1 is lower than x2
-   void getLinearInterpolation_testX1LowerThanX2()
+   static void getLinearInterpolation_testX1LowerThanX2()
    {
       // setup
       Environment env;
@@ -100,11 +127,11 @@ private:
       // exercise
       double result = env.getLinearInterpolation(d0, r0, d1, r1, d);
       // verify
-      assert(result == 1.2024);
+      assert(aboutEquals(result, 1.2024));
    }  // teardown
 
    // x1 is equal to x2
-   void getLinearInterpolation_testX1EqualToX2()
+   static void getLinearInterpolation_testX1EqualToX2()
    {
       // setup
       Environment env;
@@ -116,11 +143,11 @@ private:
       // exercise
       double result = env.getLinearInterpolation(d0, r0, d1, r1, d);
       // verify
-      assert(result == 1.225);
+      assert(aboutEquals(result, 1.225));
    }  // teardown
 
    // x1 is greater than x2
-   void getLinearInterpolation_testX1GreaterThanX2()
+   static void getLinearInterpolation_testX1GreaterThanX2()
    {
       // setup
       Environment env;
@@ -132,11 +159,11 @@ private:
       // exercise
       double result = env.getLinearInterpolation(d0, r0, d1, r1, d);
       // verify
-      assert(result == 1.2024);
+      assert(aboutEquals(result, 1.2024));
    }  // teardown
 
    // x3 is before x1 and x2
-   void getLinearInterpolation_testX3BeforeX1OrX2()
+   static void getLinearInterpolation_testX3BeforeX1OrX2()
    {
       // setup
       Environment env;
@@ -146,13 +173,17 @@ private:
       double r1 = 1.112;
       double d = 0;
       // exercise
-      double result = env.getLinearInterpolation(d0, r0, d1, r1, d);
-      // verify
-      assert(result == 1.2024);
+      try
+      {
+         double result = env.getLinearInterpolation(d0, r0, d1, r1, d);
+         // verify
+         assert(false);
+      }
+      catch(...) {}
    }  // teardown
 
    // x3 is after x1 and x2
-   void getLinearInterpolation_testX3AfterX1OrX2()
+   static void getLinearInterpolation_testX3AfterX1OrX2()
    {
       // setup
       Environment env;
@@ -162,13 +193,17 @@ private:
       double r1 = 1.2024;
       double d = 1000;
       // exercise
-      double result = env.getLinearInterpolation(d0, r0, d1, r1, d);
-      // verify
-      assert(result == 1.225);
+      try
+      {
+         double result = env.getLinearInterpolation(d0, r0, d1, r1, d);
+         // verify
+         assert(false);
+      }
+      catch(...) {}
    }  // teardown
 
    // x3 is equal to x1
-   void getLinearInterpolation_testX3EqualsX1()
+   static void getLinearInterpolation_testX3EqualsX1()
    {
       // setup
       Environment env;
@@ -180,11 +215,11 @@ private:
       // exercise
       double result = env.getLinearInterpolation(d0, r0, d1, r1, d);
       // verify
-      assert(result == 1.225);
+      assert(aboutEquals(result, 1.225));
    }  // teardown
 
    // x3 is equal to x2
-   void getLinearInterpolation_testX3EqualsX2()
+   static void getLinearInterpolation_testX3EqualsX2()
    {
       // setup
       Environment env;
@@ -196,11 +231,11 @@ private:
       // exercise
       double result = env.getLinearInterpolation(d0, r0, d1, r1, d);
       // verify
-      assert(result == 1.112);
+      assert(aboutEquals(result, 1.112));
    }  // teardown
 
 
-   void getSpeedOfSound_testAltitudeIsZero()
+   static void getSpeedOfSound_testAltitudeIsZero()
    {
       // setup
       Environment env;
@@ -208,7 +243,7 @@ private:
       // exercise
       double result = env.getSpeedOfSound(altitude);
       // verify
-      assert(result == 340.0);
+      assert(isEqual(result, 340.0));
    }  // teardown
 
    void getSpeedOfSound_testAltitudeIs1000()
@@ -219,7 +254,7 @@ private:
       // exercise
       double result = env.getSpeedOfSound(altitude);
       // verify
-      assert(result == 336.0);
+      assert(isEqual(result, 336.0));
    }  // teardown
 
    void getSpeedOfSound_testAltitudeIs40000()
@@ -230,7 +265,7 @@ private:
       // exercise
       double result = env.getSpeedOfSound(altitude);
       // verify
-      assert(result == 324.0);
+      assert(isEqual(result, 324.0));
    }  // teardown
    void getSpeedOfSound_testAltitudeIsGreaterThan40000()
    {
@@ -240,7 +275,7 @@ private:
       // exercise
       double result = env.getSpeedOfSound(altitude);
       // verify
-      assert(result == 324.0);
+      assert(isEqual(result, 324.0));
    }  // teardown
    void getSpeedOfSound_testAltitudeIs1500()
    {
@@ -250,7 +285,7 @@ private:
       // exercise
       double result = env.getSpeedOfSound(altitude);
       // verify
-      assert(result == 334.0);
+      assert(isEqual(result, 334.0));
    }  // teardown
    void getSpeedOfSound_testAltitudeIs35000()
    {
@@ -260,7 +295,7 @@ private:
       // exercise
       double result = env.getSpeedOfSound(altitude);
       // verify
-      assert(result == 326.0);
+      assert(isEqual(result, 326.0));
    }  // teardown
 
 

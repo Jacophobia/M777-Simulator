@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\TestClasses"
+CMAKE_SOURCE_DIR = "C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\TestClasses\cmake-build-debug-coverage"
+CMAKE_BINARY_DIR = "C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\cmake-build-debug-coverage"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\TestClasses\cmake-build-debug-coverage\CMakeFiles" "C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\TestClasses\cmake-build-debug-coverage\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\cmake-build-debug-coverage\CMakeFiles" "C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\cmake-build-debug-coverage\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\TestClasses\cmake-build-debug-coverage\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\cmake-build-debug-coverage\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
