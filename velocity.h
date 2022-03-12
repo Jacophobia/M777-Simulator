@@ -7,6 +7,7 @@ class Velocity
 {
 public:
    Velocity() = default;
+   Velocity(double dx, double dy);
 #ifndef DEBUG
 private:
 #endif
