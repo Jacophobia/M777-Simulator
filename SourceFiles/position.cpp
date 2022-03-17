@@ -7,7 +7,7 @@
  *    Everything we need to know about a location on the screen.
  ************************************************************************/
 
-#include "position.h"
+#include "../HeaderFiles/position.h"
 #include <cassert>
 
  /******************************************

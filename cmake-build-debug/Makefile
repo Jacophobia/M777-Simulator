@@ -128,173 +128,221 @@ TestClasses/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/build
 .PHONY : TestClasses/fast
 
-acceleration.obj: acceleration.cpp.obj
-.PHONY : acceleration.obj
+SourceFiles/acceleration.obj: SourceFiles/acceleration.cpp.obj
+.PHONY : SourceFiles/acceleration.obj
 
 # target to build an object file
-acceleration.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/acceleration.cpp.obj
-.PHONY : acceleration.cpp.obj
+SourceFiles/acceleration.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/SourceFiles/acceleration.cpp.obj
+.PHONY : SourceFiles/acceleration.cpp.obj
 
-acceleration.i: acceleration.cpp.i
-.PHONY : acceleration.i
+SourceFiles/acceleration.i: SourceFiles/acceleration.cpp.i
+.PHONY : SourceFiles/acceleration.i
 
 # target to preprocess a source file
-acceleration.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/acceleration.cpp.i
-.PHONY : acceleration.cpp.i
+SourceFiles/acceleration.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/SourceFiles/acceleration.cpp.i
+.PHONY : SourceFiles/acceleration.cpp.i
 
-acceleration.s: acceleration.cpp.s
-.PHONY : acceleration.s
+SourceFiles/acceleration.s: SourceFiles/acceleration.cpp.s
+.PHONY : SourceFiles/acceleration.s
 
 # target to generate assembly for a file
-acceleration.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/acceleration.cpp.s
-.PHONY : acceleration.cpp.s
+SourceFiles/acceleration.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/SourceFiles/acceleration.cpp.s
+.PHONY : SourceFiles/acceleration.cpp.s
 
-environment.obj: environment.cpp.obj
-.PHONY : environment.obj
+SourceFiles/environment.obj: SourceFiles/environment.cpp.obj
+.PHONY : SourceFiles/environment.obj
 
 # target to build an object file
-environment.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/environment.cpp.obj
-.PHONY : environment.cpp.obj
+SourceFiles/environment.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/SourceFiles/environment.cpp.obj
+.PHONY : SourceFiles/environment.cpp.obj
 
-environment.i: environment.cpp.i
-.PHONY : environment.i
+SourceFiles/environment.i: SourceFiles/environment.cpp.i
+.PHONY : SourceFiles/environment.i
 
 # target to preprocess a source file
-environment.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/environment.cpp.i
-.PHONY : environment.cpp.i
+SourceFiles/environment.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/SourceFiles/environment.cpp.i
+.PHONY : SourceFiles/environment.cpp.i
 
-environment.s: environment.cpp.s
-.PHONY : environment.s
+SourceFiles/environment.s: SourceFiles/environment.cpp.s
+.PHONY : SourceFiles/environment.s
 
 # target to generate assembly for a file
-environment.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/environment.cpp.s
-.PHONY : environment.cpp.s
+SourceFiles/environment.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/SourceFiles/environment.cpp.s
+.PHONY : SourceFiles/environment.cpp.s
 
-force.obj: force.cpp.obj
-.PHONY : force.obj
+SourceFiles/force.obj: SourceFiles/force.cpp.obj
+.PHONY : SourceFiles/force.obj
 
 # target to build an object file
-force.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/force.cpp.obj
-.PHONY : force.cpp.obj
+SourceFiles/force.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/SourceFiles/force.cpp.obj
+.PHONY : SourceFiles/force.cpp.obj
 
-force.i: force.cpp.i
-.PHONY : force.i
+SourceFiles/force.i: SourceFiles/force.cpp.i
+.PHONY : SourceFiles/force.i
 
 # target to preprocess a source file
-force.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/force.cpp.i
-.PHONY : force.cpp.i
+SourceFiles/force.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/SourceFiles/force.cpp.i
+.PHONY : SourceFiles/force.cpp.i
 
-force.s: force.cpp.s
-.PHONY : force.s
+SourceFiles/force.s: SourceFiles/force.cpp.s
+.PHONY : SourceFiles/force.s
 
 # target to generate assembly for a file
-force.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/force.cpp.s
-.PHONY : force.cpp.s
+SourceFiles/force.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/SourceFiles/force.cpp.s
+.PHONY : SourceFiles/force.cpp.s
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+SourceFiles/main.obj: SourceFiles/main.cpp.obj
+.PHONY : SourceFiles/main.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+SourceFiles/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/SourceFiles/main.cpp.obj
+.PHONY : SourceFiles/main.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+SourceFiles/main.i: SourceFiles/main.cpp.i
+.PHONY : SourceFiles/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/main.cpp.i
-.PHONY : main.cpp.i
+SourceFiles/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/SourceFiles/main.cpp.i
+.PHONY : SourceFiles/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+SourceFiles/main.s: SourceFiles/main.cpp.s
+.PHONY : SourceFiles/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/main.cpp.s
-.PHONY : main.cpp.s
+SourceFiles/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/SourceFiles/main.cpp.s
+.PHONY : SourceFiles/main.cpp.s
 
-position.obj: position.cpp.obj
-.PHONY : position.obj
+SourceFiles/mass.obj: SourceFiles/mass.cpp.obj
+.PHONY : SourceFiles/mass.obj
 
 # target to build an object file
-position.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/position.cpp.obj
-.PHONY : position.cpp.obj
+SourceFiles/mass.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/SourceFiles/mass.cpp.obj
+.PHONY : SourceFiles/mass.cpp.obj
 
-position.i: position.cpp.i
-.PHONY : position.i
+SourceFiles/mass.i: SourceFiles/mass.cpp.i
+.PHONY : SourceFiles/mass.i
 
 # target to preprocess a source file
-position.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/position.cpp.i
-.PHONY : position.cpp.i
+SourceFiles/mass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/SourceFiles/mass.cpp.i
+.PHONY : SourceFiles/mass.cpp.i
 
-position.s: position.cpp.s
-.PHONY : position.s
+SourceFiles/mass.s: SourceFiles/mass.cpp.s
+.PHONY : SourceFiles/mass.s
 
 # target to generate assembly for a file
-position.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/position.cpp.s
-.PHONY : position.cpp.s
+SourceFiles/mass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/SourceFiles/mass.cpp.s
+.PHONY : SourceFiles/mass.cpp.s
 
-trajectory.obj: trajectory.cpp.obj
-.PHONY : trajectory.obj
+SourceFiles/position.obj: SourceFiles/position.cpp.obj
+.PHONY : SourceFiles/position.obj
 
 # target to build an object file
-trajectory.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/trajectory.cpp.obj
-.PHONY : trajectory.cpp.obj
+SourceFiles/position.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/SourceFiles/position.cpp.obj
+.PHONY : SourceFiles/position.cpp.obj
 
-trajectory.i: trajectory.cpp.i
-.PHONY : trajectory.i
+SourceFiles/position.i: SourceFiles/position.cpp.i
+.PHONY : SourceFiles/position.i
 
 # target to preprocess a source file
-trajectory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/trajectory.cpp.i
-.PHONY : trajectory.cpp.i
+SourceFiles/position.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/SourceFiles/position.cpp.i
+.PHONY : SourceFiles/position.cpp.i
 
-trajectory.s: trajectory.cpp.s
-.PHONY : trajectory.s
+SourceFiles/position.s: SourceFiles/position.cpp.s
+.PHONY : SourceFiles/position.s
 
 # target to generate assembly for a file
-trajectory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/trajectory.cpp.s
-.PHONY : trajectory.cpp.s
+SourceFiles/position.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/SourceFiles/position.cpp.s
+.PHONY : SourceFiles/position.cpp.s
 
-velocity.obj: velocity.cpp.obj
-.PHONY : velocity.obj
+SourceFiles/seconds.obj: SourceFiles/seconds.cpp.obj
+.PHONY : SourceFiles/seconds.obj
 
 # target to build an object file
-velocity.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/velocity.cpp.obj
-.PHONY : velocity.cpp.obj
+SourceFiles/seconds.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/SourceFiles/seconds.cpp.obj
+.PHONY : SourceFiles/seconds.cpp.obj
 
-velocity.i: velocity.cpp.i
-.PHONY : velocity.i
+SourceFiles/seconds.i: SourceFiles/seconds.cpp.i
+.PHONY : SourceFiles/seconds.i
 
 # target to preprocess a source file
-velocity.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/velocity.cpp.i
-.PHONY : velocity.cpp.i
+SourceFiles/seconds.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/SourceFiles/seconds.cpp.i
+.PHONY : SourceFiles/seconds.cpp.i
 
-velocity.s: velocity.cpp.s
-.PHONY : velocity.s
+SourceFiles/seconds.s: SourceFiles/seconds.cpp.s
+.PHONY : SourceFiles/seconds.s
 
 # target to generate assembly for a file
-velocity.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/velocity.cpp.s
-.PHONY : velocity.cpp.s
+SourceFiles/seconds.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/SourceFiles/seconds.cpp.s
+.PHONY : SourceFiles/seconds.cpp.s
+
+SourceFiles/trajectory.obj: SourceFiles/trajectory.cpp.obj
+.PHONY : SourceFiles/trajectory.obj
+
+# target to build an object file
+SourceFiles/trajectory.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/SourceFiles/trajectory.cpp.obj
+.PHONY : SourceFiles/trajectory.cpp.obj
+
+SourceFiles/trajectory.i: SourceFiles/trajectory.cpp.i
+.PHONY : SourceFiles/trajectory.i
+
+# target to preprocess a source file
+SourceFiles/trajectory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/SourceFiles/trajectory.cpp.i
+.PHONY : SourceFiles/trajectory.cpp.i
+
+SourceFiles/trajectory.s: SourceFiles/trajectory.cpp.s
+.PHONY : SourceFiles/trajectory.s
+
+# target to generate assembly for a file
+SourceFiles/trajectory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/SourceFiles/trajectory.cpp.s
+.PHONY : SourceFiles/trajectory.cpp.s
+
+SourceFiles/velocity.obj: SourceFiles/velocity.cpp.obj
+.PHONY : SourceFiles/velocity.obj
+
+# target to build an object file
+SourceFiles/velocity.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/SourceFiles/velocity.cpp.obj
+.PHONY : SourceFiles/velocity.cpp.obj
+
+SourceFiles/velocity.i: SourceFiles/velocity.cpp.i
+.PHONY : SourceFiles/velocity.i
+
+# target to preprocess a source file
+SourceFiles/velocity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/SourceFiles/velocity.cpp.i
+.PHONY : SourceFiles/velocity.cpp.i
+
+SourceFiles/velocity.s: SourceFiles/velocity.cpp.s
+.PHONY : SourceFiles/velocity.s
+
+# target to generate assembly for a file
+SourceFiles/velocity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/SourceFiles/velocity.cpp.s
+.PHONY : SourceFiles/velocity.cpp.s
 
 # Help Target
 help:
@@ -305,27 +353,33 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... TestClasses
-	@echo ... acceleration.obj
-	@echo ... acceleration.i
-	@echo ... acceleration.s
-	@echo ... environment.obj
-	@echo ... environment.i
-	@echo ... environment.s
-	@echo ... force.obj
-	@echo ... force.i
-	@echo ... force.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
-	@echo ... position.obj
-	@echo ... position.i
-	@echo ... position.s
-	@echo ... trajectory.obj
-	@echo ... trajectory.i
-	@echo ... trajectory.s
-	@echo ... velocity.obj
-	@echo ... velocity.i
-	@echo ... velocity.s
+	@echo ... SourceFiles/acceleration.obj
+	@echo ... SourceFiles/acceleration.i
+	@echo ... SourceFiles/acceleration.s
+	@echo ... SourceFiles/environment.obj
+	@echo ... SourceFiles/environment.i
+	@echo ... SourceFiles/environment.s
+	@echo ... SourceFiles/force.obj
+	@echo ... SourceFiles/force.i
+	@echo ... SourceFiles/force.s
+	@echo ... SourceFiles/main.obj
+	@echo ... SourceFiles/main.i
+	@echo ... SourceFiles/main.s
+	@echo ... SourceFiles/mass.obj
+	@echo ... SourceFiles/mass.i
+	@echo ... SourceFiles/mass.s
+	@echo ... SourceFiles/position.obj
+	@echo ... SourceFiles/position.i
+	@echo ... SourceFiles/position.s
+	@echo ... SourceFiles/seconds.obj
+	@echo ... SourceFiles/seconds.i
+	@echo ... SourceFiles/seconds.s
+	@echo ... SourceFiles/trajectory.obj
+	@echo ... SourceFiles/trajectory.i
+	@echo ... SourceFiles/trajectory.s
+	@echo ... SourceFiles/velocity.obj
+	@echo ... SourceFiles/velocity.i
+	@echo ... SourceFiles/velocity.s
 .PHONY : help
 
 

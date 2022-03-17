@@ -1,5 +1,5 @@
 #pragma once
-#include "acceleration.h"
+#include "../HeaderFiles/acceleration.h"
 #include <cmath>
 
 Acceleration::Acceleration(double xAcceleration, double yAcceleration)

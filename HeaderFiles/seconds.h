@@ -5,7 +5,7 @@
 class Seconds
 {
 public:
-	Seconds(double seconds);
+	Seconds(double seconds = 0.0);
 	Velocity operator*(Acceleration acc);
 
 #ifndef DEBUG

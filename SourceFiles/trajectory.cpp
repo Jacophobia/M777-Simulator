@@ -1,4 +1,4 @@
-#include "trajectory.h"
+#include "../HeaderFiles/trajectory.h"
 
 Trajectory::Trajectory(Velocity velocity, Acceleration acceleration, Position position)
 {

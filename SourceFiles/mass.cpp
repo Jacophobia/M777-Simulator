@@ -2,7 +2,7 @@
 // Created by Jacob on 3/12/2022.
 //
 
-#include "mass.h"
+#include "../HeaderFiles/mass.h"
 
 Mass::Mass(double kgs) : kgs(kgs) {}
 

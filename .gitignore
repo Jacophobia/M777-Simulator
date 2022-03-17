@@ -36,3 +36,4 @@
 .vs
 cmake-build-debug
 cmake-build-debug-coverage
+out

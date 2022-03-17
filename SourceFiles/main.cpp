@@ -4,12 +4,12 @@
 
 #include <iostream>
 //#include "TestFiles/test_Force.h"
-#include "TestFiles/test_Environment.h"
+#include "../TestFiles/test_Environment.h"
 //#include "TestFiles/test_Acceleration.h"
 //#include "TestFiles/test_Howitzer.h"
 //#include "TestFiles/test_Mass.h"
 //#include "TestFiles/test_Seconds.h"
-#include "TestFiles/test_Trajectory.h"
+#include "../TestFiles/test_Trajectory.h"
 //#include "TestFiles/test_Velocity.h"
 
 int main()

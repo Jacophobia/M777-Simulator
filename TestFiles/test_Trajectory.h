@@ -1,5 +1,6 @@
 #pragma once
-#include "../trajectory.h"
+#include "../HeaderFiles/trajectory.h"
+#include "../HeaderFiles/seconds.h"
 #include <cassert>
 
 class TestTrajectory

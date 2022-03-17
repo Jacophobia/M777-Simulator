@@ -224,6 +224,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+mass.obj: mass.cpp.obj
+.PHONY : mass.obj
+
+# target to build an object file
+mass.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/mass.cpp.obj
+.PHONY : mass.cpp.obj
+
+mass.i: mass.cpp.i
+.PHONY : mass.i
+
+# target to preprocess a source file
+mass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/mass.cpp.i
+.PHONY : mass.cpp.i
+
+mass.s: mass.cpp.s
+.PHONY : mass.s
+
+# target to generate assembly for a file
+mass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/mass.cpp.s
+.PHONY : mass.cpp.s
+
 position.obj: position.cpp.obj
 .PHONY : position.obj
 
@@ -247,6 +271,30 @@ position.s: position.cpp.s
 position.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/position.cpp.s
 .PHONY : position.cpp.s
+
+seconds.obj: seconds.cpp.obj
+.PHONY : seconds.obj
+
+# target to build an object file
+seconds.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/seconds.cpp.obj
+.PHONY : seconds.cpp.obj
+
+seconds.i: seconds.cpp.i
+.PHONY : seconds.i
+
+# target to preprocess a source file
+seconds.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/seconds.cpp.i
+.PHONY : seconds.cpp.i
+
+seconds.s: seconds.cpp.s
+.PHONY : seconds.s
+
+# target to generate assembly for a file
+seconds.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/seconds.cpp.s
+.PHONY : seconds.cpp.s
 
 trajectory.obj: trajectory.cpp.obj
 .PHONY : trajectory.obj
@@ -317,9 +365,15 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... mass.obj
+	@echo ... mass.i
+	@echo ... mass.s
 	@echo ... position.obj
 	@echo ... position.i
 	@echo ... position.s
+	@echo ... seconds.obj
+	@echo ... seconds.i
+	@echo ... seconds.s
 	@echo ... trajectory.obj
 	@echo ... trajectory.i
 	@echo ... trajectory.s

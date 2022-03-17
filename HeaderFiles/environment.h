@@ -8,7 +8,7 @@
 #include "projectile.h"
 #include "force.h"
 #include "howitzer.h"
-#include "DefaultFiles/ground.h"
+#include "../DefaultFiles/ground.h"
 
 class Environment
 {

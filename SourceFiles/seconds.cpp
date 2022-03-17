@@ -1,4 +1,4 @@
-#include "seconds.h"
+#include "../HeaderFiles/seconds.h"
 
 Seconds::Seconds(double seconds)
 {

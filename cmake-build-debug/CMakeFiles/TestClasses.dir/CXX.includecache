@@ -8,95 +8,129 @@
 
 C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/DefaultFiles/ground.h
 
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/acceleration.h
+
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/environment.h
+acceleration.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/acceleration.h
+velocity.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/velocity.h
+projectile.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/projectile.h
+force.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/force.h
+howitzer.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/howitzer.h
+../DefaultFiles/ground.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/DefaultFiles/ground.h
+
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/force.h
+acceleration.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/acceleration.h
+mass.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/mass.h
+
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/howitzer.h
+
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/mass.h
+acceleration.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/acceleration.h
+force.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/force.h
+
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/position.h
+iostream
+-
+
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/projectile.h
+
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/seconds.h
+velocity.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/velocity.h
+acceleration.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/acceleration.h
+
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/trajectory.h
+velocity.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/velocity.h
+acceleration.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/acceleration.h
+position.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/position.h
+seconds.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/seconds.h
+
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/velocity.h
+cmath
+-
+
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/SourceFiles/acceleration.cpp
+../HeaderFiles/acceleration.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/acceleration.h
+cmath
+-
+
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/SourceFiles/environment.cpp
+array
+-
+../HeaderFiles/environment.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/environment.h
+
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/SourceFiles/force.cpp
+../HeaderFiles/force.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/force.h
+
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/SourceFiles/main.cpp
+iostream
+-
+../TestFiles/test_Environment.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/TestFiles/test_Environment.h
+../TestFiles/test_Trajectory.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/TestFiles/test_Trajectory.h
+
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/SourceFiles/mass.cpp
+../HeaderFiles/mass.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/mass.h
+
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/SourceFiles/position.cpp
+../HeaderFiles/position.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/position.h
+cassert
+-
+
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/SourceFiles/seconds.cpp
+../HeaderFiles/seconds.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/seconds.h
+
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/SourceFiles/trajectory.cpp
+../HeaderFiles/trajectory.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/trajectory.h
+
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/SourceFiles/velocity.cpp
+../HeaderFiles/velocity.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/velocity.h
+
 C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/TestFiles/spies.h
 
 C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/TestFiles/test_Environment.h
-../environment.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/environment.h
+../HeaderFiles/environment.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/environment.h
 cassert
 -
 cmath
 -
 spies.h
 C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/TestFiles/spies.h
-../velocity.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/velocity.h
-../acceleration.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/acceleration.h
+../HeaderFiles/velocity.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/velocity.h
+../HeaderFiles/acceleration.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/acceleration.h
 
 C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/TestFiles/test_Trajectory.h
-../trajectory.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/trajectory.h
+../HeaderFiles/trajectory.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/trajectory.h
+../HeaderFiles/seconds.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/HeaderFiles/seconds.h
 cassert
--
-
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/acceleration.cpp
-acceleration.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/acceleration.h
-cmath
--
-
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/acceleration.h
-
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/environment.h
-acceleration.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/acceleration.h
-velocity.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/velocity.h
-projectile.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/projectile.h
-force.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/force.h
-howitzer.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/howitzer.h
-DefaultFiles/ground.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/DefaultFiles/ground.h
-
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/force.h
-acceleration.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/acceleration.h
-mass.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/mass.h
-
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/howitzer.h
-
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/main.cpp
-iostream
--
-TestFiles/test_Environment.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/TestFiles/test_Environment.h
-TestFiles/test_Trajectory.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/TestFiles/test_Trajectory.h
-
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/mass.h
-acceleration.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/acceleration.h
-force.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/force.h
-
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/position.h
-iostream
--
-
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/projectile.h
-
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/seconds.h
-velocity.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/velocity.h
-acceleration.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/acceleration.h
-
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/trajectory.h
-velocity.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/velocity.h
-acceleration.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/acceleration.h
-position.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/position.h
-seconds.h
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/seconds.h
-
-C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/velocity.h
-cmath
 -
 

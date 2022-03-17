@@ -80,12 +80,12 @@ clean: CMakeFiles/TestClasses.dir/clean
 CMakeFiles/TestClasses.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\cmake-build-debug-coverage\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8 "Built target TestClasses"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\cmake-build-debug-coverage\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target TestClasses"
 .PHONY : CMakeFiles/TestClasses.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TestClasses.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\cmake-build-debug-coverage\CMakeFiles" 8
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\cmake-build-debug-coverage\CMakeFiles" 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/TestClasses.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\cmake-build-debug-coverage\CMakeFiles" 0
 .PHONY : CMakeFiles/TestClasses.dir/rule

@@ -1,11 +1,11 @@
 ﻿#pragma once
 
-#include "../environment.h"
+#include "../HeaderFiles/environment.h"
 #include <cassert>
 #include <cmath>
 #include "spies.h"
-#include "../velocity.h"
-#include "../acceleration.h"
+#include "../HeaderFiles/velocity.h"
+#include "../HeaderFiles/acceleration.h"
 
 class TestEnvironment
 {

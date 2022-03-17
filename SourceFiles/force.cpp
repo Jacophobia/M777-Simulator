@@ -2,7 +2,7 @@
 // Created by Jacob on 3/12/2022.
 //
 
-#include "force.h"
+#include "../HeaderFiles/force.h"
 
 Force::Force(double newtons) : N(newtons) {}
 
