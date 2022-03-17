@@ -11,18 +11,39 @@ CMakeFiles/TestClasses.dir/environment.cpp.obj: \
  ../environment.h \
  ../force.h \
  ../howitzer.h \
+ ../mass.h \
  ../projectile.h \
  ../velocity.h
+CMakeFiles/TestClasses.dir/force.cpp.obj: \
+ ../acceleration.h \
+ ../force.cpp \
+ ../force.h \
+ ../mass.h
 CMakeFiles/TestClasses.dir/main.cpp.obj: \
  ../DefaultFiles/ground.h \
  ../TestFiles/spies.h \
  ../TestFiles/test_Environment.h \
+ ../TestFiles/test_Trajectory.h \
  ../acceleration.h \
  ../environment.h \
  ../force.h \
  ../howitzer.h \
  ../main.cpp \
+ ../mass.h \
+ ../position.h \
  ../projectile.h \
+ ../seconds.h \
+ ../trajectory.h \
+ ../velocity.h
+CMakeFiles/TestClasses.dir/position.cpp.obj: \
+ ../position.cpp \
+ ../position.h
+CMakeFiles/TestClasses.dir/trajectory.cpp.obj: \
+ ../acceleration.h \
+ ../position.h \
+ ../seconds.h \
+ ../trajectory.cpp \
+ ../trajectory.h \
  ../velocity.h
 CMakeFiles/TestClasses.dir/velocity.cpp.obj: \
  ../velocity.cpp \

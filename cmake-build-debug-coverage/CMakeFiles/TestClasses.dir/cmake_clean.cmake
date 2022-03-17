@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TestClasses.dir/acceleration.cpp.obj"
   "CMakeFiles/TestClasses.dir/environment.cpp.obj"
+  "CMakeFiles/TestClasses.dir/force.cpp.obj"
   "CMakeFiles/TestClasses.dir/main.cpp.obj"
+  "CMakeFiles/TestClasses.dir/position.cpp.obj"
+  "CMakeFiles/TestClasses.dir/trajectory.cpp.obj"
   "CMakeFiles/TestClasses.dir/velocity.cpp.obj"
   "TestClasses.exe"
   "TestClasses.exe.manifest"

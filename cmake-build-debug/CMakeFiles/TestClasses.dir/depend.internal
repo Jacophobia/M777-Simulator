@@ -11,18 +11,39 @@ CMakeFiles/TestClasses.dir/environment.cpp.obj
  C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/environment.h
  C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/force.h
  C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/howitzer.h
+ C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/mass.h
  C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/projectile.h
  C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/velocity.h
+CMakeFiles/TestClasses.dir/force.cpp.obj
+ C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/acceleration.h
+ C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/force.cpp
+ C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/force.h
+ C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/mass.h
 CMakeFiles/TestClasses.dir/main.cpp.obj
  C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/DefaultFiles/ground.h
  C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/TestFiles/spies.h
  C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/TestFiles/test_Environment.h
+ C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/TestFiles/test_Trajectory.h
  C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/acceleration.h
  C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/environment.h
  C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/force.h
  C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/howitzer.h
  C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/main.cpp
+ C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/mass.h
+ C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/position.h
  C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/projectile.h
+ C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/seconds.h
+ C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/trajectory.h
+ C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/velocity.h
+CMakeFiles/TestClasses.dir/position.cpp.obj
+ C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/position.cpp
+ C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/position.h
+CMakeFiles/TestClasses.dir/trajectory.cpp.obj
+ C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/acceleration.h
+ C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/position.h
+ C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/seconds.h
+ C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/trajectory.cpp
+ C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/trajectory.h
  C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/velocity.h
 CMakeFiles/TestClasses.dir/velocity.cpp.obj
  C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/velocity.cpp

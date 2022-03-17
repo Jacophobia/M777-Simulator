@@ -6,6 +6,9 @@ class Seconds
 {
 public:
 	Velocity operator*(Acceleration acc);
+
+#ifndef DEBUG
 private:
+#endif
 	double seconds;
 };

@@ -47,8 +47,9 @@ public:
       y = rhs.y;
       return *this;
    }
-
+#ifndef DEBUG
 private:
+#endif
    double x;           // horizontal position
    double y;           // vertical position
 };

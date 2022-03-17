@@ -7,22 +7,30 @@
 
 Environment::Environment()
 {
-
+   proj.reset();
+   howitzer.reset();
+   ground.reset();
 }
 
 void Environment::update()
 {
-
+   proj.update();
+   howitzer.update();
+   ground.update();
 }
 
 void Environment::draw()
 {
-
+   proj.draw();
+   ground.draw();
+   howitzer.draw();
 }
 
 void Environment::reset()
 {
-
+   proj.reset();
+   howitzer.reset();
+   ground.reset();
 }
 
 Force Environment::getAirResistance()

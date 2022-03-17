@@ -91,9 +91,35 @@ CMakeFiles/TestClasses.dir/environment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestClasses.dir/environment.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\environment.cpp" -o CMakeFiles\TestClasses.dir\environment.cpp.s
 
+CMakeFiles/TestClasses.dir/trajectory.cpp.obj: CMakeFiles/TestClasses.dir/flags.make
+CMakeFiles/TestClasses.dir/trajectory.cpp.obj: ../trajectory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TestClasses.dir/trajectory.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TestClasses.dir\trajectory.cpp.obj -c "C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\trajectory.cpp"
+
+CMakeFiles/TestClasses.dir/trajectory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestClasses.dir/trajectory.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\trajectory.cpp" > CMakeFiles\TestClasses.dir\trajectory.cpp.i
+
+CMakeFiles/TestClasses.dir/trajectory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestClasses.dir/trajectory.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\trajectory.cpp" -o CMakeFiles\TestClasses.dir\trajectory.cpp.s
+
+CMakeFiles/TestClasses.dir/position.cpp.obj: CMakeFiles/TestClasses.dir/flags.make
+CMakeFiles/TestClasses.dir/position.cpp.obj: ../position.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TestClasses.dir/position.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TestClasses.dir\position.cpp.obj -c "C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\position.cpp"
+
+CMakeFiles/TestClasses.dir/position.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestClasses.dir/position.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\position.cpp" > CMakeFiles\TestClasses.dir\position.cpp.i
+
+CMakeFiles/TestClasses.dir/position.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestClasses.dir/position.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\position.cpp" -o CMakeFiles\TestClasses.dir\position.cpp.s
+
 CMakeFiles/TestClasses.dir/acceleration.cpp.obj: CMakeFiles/TestClasses.dir/flags.make
 CMakeFiles/TestClasses.dir/acceleration.cpp.obj: ../acceleration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TestClasses.dir/acceleration.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TestClasses.dir/acceleration.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TestClasses.dir\acceleration.cpp.obj -c "C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\acceleration.cpp"
 
 CMakeFiles/TestClasses.dir/acceleration.cpp.i: cmake_force
@@ -106,7 +132,7 @@ CMakeFiles/TestClasses.dir/acceleration.cpp.s: cmake_force
 
 CMakeFiles/TestClasses.dir/velocity.cpp.obj: CMakeFiles/TestClasses.dir/flags.make
 CMakeFiles/TestClasses.dir/velocity.cpp.obj: ../velocity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TestClasses.dir/velocity.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TestClasses.dir/velocity.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TestClasses.dir\velocity.cpp.obj -c "C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\velocity.cpp"
 
 CMakeFiles/TestClasses.dir/velocity.cpp.i: cmake_force
@@ -117,25 +143,44 @@ CMakeFiles/TestClasses.dir/velocity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestClasses.dir/velocity.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\velocity.cpp" -o CMakeFiles\TestClasses.dir\velocity.cpp.s
 
+CMakeFiles/TestClasses.dir/force.cpp.obj: CMakeFiles/TestClasses.dir/flags.make
+CMakeFiles/TestClasses.dir/force.cpp.obj: ../force.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TestClasses.dir/force.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TestClasses.dir\force.cpp.obj -c "C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\force.cpp"
+
+CMakeFiles/TestClasses.dir/force.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestClasses.dir/force.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\force.cpp" > CMakeFiles\TestClasses.dir\force.cpp.i
+
+CMakeFiles/TestClasses.dir/force.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestClasses.dir/force.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\force.cpp" -o CMakeFiles\TestClasses.dir\force.cpp.s
+
 # Object files for target TestClasses
 TestClasses_OBJECTS = \
 "CMakeFiles/TestClasses.dir/main.cpp.obj" \
 "CMakeFiles/TestClasses.dir/environment.cpp.obj" \
+"CMakeFiles/TestClasses.dir/trajectory.cpp.obj" \
+"CMakeFiles/TestClasses.dir/position.cpp.obj" \
 "CMakeFiles/TestClasses.dir/acceleration.cpp.obj" \
-"CMakeFiles/TestClasses.dir/velocity.cpp.obj"
+"CMakeFiles/TestClasses.dir/velocity.cpp.obj" \
+"CMakeFiles/TestClasses.dir/force.cpp.obj"
 
 # External object files for target TestClasses
 TestClasses_EXTERNAL_OBJECTS =
 
 TestClasses.exe: CMakeFiles/TestClasses.dir/main.cpp.obj
 TestClasses.exe: CMakeFiles/TestClasses.dir/environment.cpp.obj
+TestClasses.exe: CMakeFiles/TestClasses.dir/trajectory.cpp.obj
+TestClasses.exe: CMakeFiles/TestClasses.dir/position.cpp.obj
 TestClasses.exe: CMakeFiles/TestClasses.dir/acceleration.cpp.obj
 TestClasses.exe: CMakeFiles/TestClasses.dir/velocity.cpp.obj
+TestClasses.exe: CMakeFiles/TestClasses.dir/force.cpp.obj
 TestClasses.exe: CMakeFiles/TestClasses.dir/build.make
 TestClasses.exe: CMakeFiles/TestClasses.dir/linklibs.rsp
 TestClasses.exe: CMakeFiles/TestClasses.dir/objects1.rsp
 TestClasses.exe: CMakeFiles/TestClasses.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable TestClasses.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Jacob\Documents\Winter2022\Encapsulation Design\M777\M777-Simulator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable TestClasses.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TestClasses.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

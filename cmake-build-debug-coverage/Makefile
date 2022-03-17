@@ -176,6 +176,30 @@ environment.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/environment.cpp.s
 .PHONY : environment.cpp.s
 
+force.obj: force.cpp.obj
+.PHONY : force.obj
+
+# target to build an object file
+force.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/force.cpp.obj
+.PHONY : force.cpp.obj
+
+force.i: force.cpp.i
+.PHONY : force.i
+
+# target to preprocess a source file
+force.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/force.cpp.i
+.PHONY : force.cpp.i
+
+force.s: force.cpp.s
+.PHONY : force.s
+
+# target to generate assembly for a file
+force.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/force.cpp.s
+.PHONY : force.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -199,6 +223,54 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+position.obj: position.cpp.obj
+.PHONY : position.obj
+
+# target to build an object file
+position.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/position.cpp.obj
+.PHONY : position.cpp.obj
+
+position.i: position.cpp.i
+.PHONY : position.i
+
+# target to preprocess a source file
+position.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/position.cpp.i
+.PHONY : position.cpp.i
+
+position.s: position.cpp.s
+.PHONY : position.s
+
+# target to generate assembly for a file
+position.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/position.cpp.s
+.PHONY : position.cpp.s
+
+trajectory.obj: trajectory.cpp.obj
+.PHONY : trajectory.obj
+
+# target to build an object file
+trajectory.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/trajectory.cpp.obj
+.PHONY : trajectory.cpp.obj
+
+trajectory.i: trajectory.cpp.i
+.PHONY : trajectory.i
+
+# target to preprocess a source file
+trajectory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/trajectory.cpp.i
+.PHONY : trajectory.cpp.i
+
+trajectory.s: trajectory.cpp.s
+.PHONY : trajectory.s
+
+# target to generate assembly for a file
+trajectory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestClasses.dir\build.make CMakeFiles/TestClasses.dir/trajectory.cpp.s
+.PHONY : trajectory.cpp.s
 
 velocity.obj: velocity.cpp.obj
 .PHONY : velocity.obj
@@ -239,9 +311,18 @@ help:
 	@echo ... environment.obj
 	@echo ... environment.i
 	@echo ... environment.s
+	@echo ... force.obj
+	@echo ... force.i
+	@echo ... force.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... position.obj
+	@echo ... position.i
+	@echo ... position.s
+	@echo ... trajectory.obj
+	@echo ... trajectory.i
+	@echo ... trajectory.s
 	@echo ... velocity.obj
 	@echo ... velocity.i
 	@echo ... velocity.s

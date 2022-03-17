@@ -8,19 +8,27 @@ add_executable(TestClasses
         TestFiles/test_Environment.h
         environment.h
         environment.cpp
-#        TestFiles/test_Acceleration.h
+        trajectory.h
+        trajectory.cpp
 #        TestFiles/test_Force.h
-#        TestFiles/test_Howitzer.h
 #        TestFiles/test_Mass.h
+#        TestFiles/test_Acceleration.h
+#        TestFiles/test_Howitzer.h
 #        TestFiles/test_Seconds.h
-#        TestFiles/test_Trajectory.h
+        TestFiles/test_Trajectory.h
 #        TestFiles/test_Velocity.h
+        position.h
+        position.cpp
         acceleration.h
         acceleration.cpp
         velocity.h
         velocity.cpp
-        projectile.h
-        TestFiles/spies.h
         force.h
+        force.cpp
+        projectile.h
+#        TestFiles/spies.h
         DefaultFiles/ground.h
-        howitzer.h)
+        howitzer.h
+#        mass.cpp
+#        mass.h
+        )

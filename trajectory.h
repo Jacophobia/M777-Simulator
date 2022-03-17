@@ -14,13 +14,17 @@ public:
 	Trajectory(Velocity velocity, Acceleration acceleration, Position position);
 	Position getPosition();
 	void incrementTime(Seconds second);
+
+#ifndef DEBUG
 private:
+#endif
 	void addAcceleration(Acceleration accelerationToAdd);
 	
 
 	Velocity velocity;
 	Acceleration acceleration;
 	Position position;
+   double angle;
 	//Status status;
 	//Point[] pastPositions; // this needs work but is also not needed now
 };

@@ -26,14 +26,8 @@ double Acceleration::getDDY()
 
 Acceleration Acceleration::operator+=(Acceleration acceleration)
 {
-	double ddx = this->ddx;
-	double ddy = this->ddy;
+	ddx += acceleration.ddx;
+   ddy += acceleration.ddy;
 
-	double ddxToAdd = acceleration.ddx;
-	double ddyToAdd = acceleration.ddy;
-
-	double newddx = ddx + ddxToAdd;
-	double newddy = ddy + ddyToAdd;
-
-	return Acceleration(newddx,newddy);
+	return *this;
 }

@@ -24,6 +24,18 @@ C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/vel
 ../acceleration.h
 C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/acceleration.h
 
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/TestFiles/test_Trajectory.h
+../trajectory.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/trajectory.h
+cassert
+-
+
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/acceleration.cpp
+acceleration.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/acceleration.h
+cmath
+-
+
 C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/acceleration.h
 
 C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/environment.h
@@ -41,6 +53,10 @@ DefaultFiles/ground.h
 C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/DefaultFiles/ground.h
 
 C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/force.h
+acceleration.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/acceleration.h
+mass.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/mass.h
 
 C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/howitzer.h
 
@@ -49,8 +65,36 @@ iostream
 -
 TestFiles/test_Environment.h
 C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/TestFiles/test_Environment.h
+TestFiles/test_Trajectory.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/TestFiles/test_Trajectory.h
+
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/mass.h
+acceleration.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/acceleration.h
+force.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/force.h
+
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/position.h
+iostream
+-
 
 C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/projectile.h
+
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/seconds.h
+velocity.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/velocity.h
+acceleration.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/acceleration.h
+
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/trajectory.h
+velocity.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/velocity.h
+acceleration.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/acceleration.h
+position.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/position.h
+seconds.h
+C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/seconds.h
 
 C:/Users/Jacob/Documents/Winter2022/Encapsulation Design/M777/M777-Simulator/velocity.h
 cmath

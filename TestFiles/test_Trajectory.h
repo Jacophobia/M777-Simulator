@@ -1,5 +1,5 @@
 #pragma once
-#include "trajectory.h"
+#include "../trajectory.h"
 #include <cassert>
 
 class TestTrajectory
@@ -49,8 +49,10 @@ private:
 		trajectory.acceleration = Acceleration(0.0);
 		trajectory.position = Position(0.0, 0.0);
 		trajectory.angle = 0.0;
+      Seconds time;
+      time.seconds = 1.0;
 		// exercise
-		trajectory.incrementTime(1.0);
+		trajectory.incrementTime(time);
 		// verify
 		assert(trajectory.velocity.dx == 0.0);
 		assert(trajectory.velocity.dy == 0.0);
@@ -69,8 +71,10 @@ private:
 		trajectory.acceleration = Acceleration(1.0, 1.0);
 		trajectory.position = Position(1.0, 1.0);
 		trajectory.angle = 1.0;
+      Seconds time;
+      time.seconds = 0.0;
 		// exercise
-		trajectory.incrementTime(0.0);
+		trajectory.incrementTime(time);
 		// verify
 		assert(trajectory.velocity.dx == 1.0);
 		assert(trajectory.velocity.dy == 1.0);
@@ -78,7 +82,7 @@ private:
 		assert(trajectory.acceleration.ddy == 1.0);
 		assert(trajectory.position.x == 1.0);
 		assert(trajectory.position.y == 1.0);
-		assert(trajectory.angle == 0.0);
+		assert(trajectory.angle == 1.0);
 		// takedown
 	}
 	void addAcceleration_testNormal()
@@ -87,7 +91,7 @@ private:
 		Acceleration src(10.0, 20.0);
 		Trajectory trajectory;
 		trajectory.velocity = Velocity(0.0);
-		trajectory.acceleration = Acceleration(0.0);
+		trajectory.acceleration = Acceleration(0.0, 0.0);
 		trajectory.position = Position(0.0, 0.0);
 		trajectory.angle = 0.0;
 		// exercise
