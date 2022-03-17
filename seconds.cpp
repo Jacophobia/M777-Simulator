@@ -1,5 +1,10 @@
 #include "seconds.h"
 
+Seconds::Seconds(double seconds)
+{
+	this->seconds = seconds;
+}
+
 Velocity Seconds::operator*(Acceleration acc)
 {
 	double seconds = this->seconds;
