@@ -9,3 +9,33 @@ UserInput::UserInput(bool left, bool right, bool up, bool down, bool space) :
 {
 
 }
+
+bool UserInput::isLeft()
+{
+   return false;
+}
+
+bool UserInput::isRight()
+{
+   return false;
+}
+
+bool UserInput::isUp()
+{
+   return false;
+}
+
+bool UserInput::isDown()
+{
+   return false;
+}
+
+bool UserInput::isSpace()
+{
+   return false;
+}
+
+bool UserInput::isSpacePressed()
+{
+   return false;
+}

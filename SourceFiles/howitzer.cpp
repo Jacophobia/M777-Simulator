@@ -53,3 +53,8 @@ Position Howitzer::getTipOfBarrelPos()
 {
    return {0.0, 0.0};
 }
+
+Trajectory Howitzer::fire()
+{
+   return Trajectory();
+}

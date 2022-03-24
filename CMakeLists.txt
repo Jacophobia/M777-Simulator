@@ -10,13 +10,13 @@ add_executable(TestClasses
         SourceFiles/environment.cpp
         HeaderFiles/trajectory.h
         SourceFiles/trajectory.cpp
-#        TestFiles/test_Force.h
-#        TestFiles/test_Mass.h
-#        TestFiles/test_Acceleration.h
-#        TestFiles/test_Howitzer.h
-#        TestFiles/test_Seconds.h
+        #        TestFiles/test_Force.h
+        #        TestFiles/test_Mass.h
+        #        TestFiles/test_Acceleration.h
+        #        TestFiles/test_Howitzer.h
+        #        TestFiles/test_Seconds.h
         TestFiles/test_Trajectory.h
-#        TestFiles/test_Velocity.h
+        #        TestFiles/test_Velocity.h
         HeaderFiles/position.h
         SourceFiles/position.cpp
         HeaderFiles/projectile.h
@@ -38,6 +38,5 @@ add_executable(TestClasses
         SourceFiles/userInput.cpp
         HeaderFiles/userInput.h
         SourceFiles/howitzer.cpp)
-#        SourceFiles/howitzer.cpp
 #        SourceFiles/simulator.cpp
 #        HeaderFiles/simulator.h
