@@ -59,7 +59,7 @@ Position Howitzer::getTipOfBarrelPos()
    double yPosRelativeToM777 = sin(barrelAngle) * barrelLength;
    double xPosRelativeToM777 = cos(barrelAngle) * barrelLength;
    double tipXPos;
-   if (barrelAngle > 3.14 / 2)
+   if (barrelAngle > 3.14 / 2.0)
    {
       tipXPos = pos.getX() - xPosRelativeToM777;
          //note the xPos is the M777 position 
