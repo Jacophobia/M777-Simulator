@@ -70,7 +70,7 @@ Position Howitzer::getTipOfBarrelPos()
          //note the yPos is the M777 position 
    }
 
-   double tipYPos = pos.getY() + BASE_HEIGHT;
+   double tipYPos = yPosRelativeToM777 + BASE_HEIGHT;
    return { tipXPos, tipYPos };
 }
 
