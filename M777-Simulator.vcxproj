@@ -139,15 +139,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="acceleration.h" />
-    <ClInclude Include="DefaultFiles\ground.h" />
-    <ClInclude Include="environment.h" />
-    <ClInclude Include="force.h" />
-    <ClInclude Include="howitzer.h" />
-    <ClInclude Include="position.h" />
-    <ClInclude Include="projectile.h" />
-    <ClInclude Include="seconds.h" />
-    <ClInclude Include="TestFiles\spies.h" />
+    <ClInclude Include="HeaderFiles\acceleration.h" />
+    <ClInclude Include="HeaderFiles\environment.h" />
+    <ClInclude Include="HeaderFiles\force.h" />
+    <ClInclude Include="HeaderFiles\howitzer.h" />
+    <ClInclude Include="HeaderFiles\mass.h" />
+    <ClInclude Include="HeaderFiles\position.h" />
+    <ClInclude Include="HeaderFiles\projectile.h" />
+    <ClInclude Include="HeaderFiles\seconds.h" />
+    <ClInclude Include="HeaderFiles\simulator.h" />
+    <ClInclude Include="HeaderFiles\trajectory.h" />
+    <ClInclude Include="HeaderFiles\userInput.h" />
+    <ClInclude Include="HeaderFiles\velocity.h" />
     <ClInclude Include="TestFiles\test_Acceleration.h" />
     <ClInclude Include="TestFiles\test_Environment.h" />
     <ClInclude Include="TestFiles\test_Force.h" />
@@ -156,17 +159,20 @@
     <ClInclude Include="TestFiles\test_Seconds.h" />
     <ClInclude Include="TestFiles\test_Trajectory.h" />
     <ClInclude Include="TestFiles\test_Velocity.h" />
-    <ClInclude Include="trajectory.h" />
-    <ClInclude Include="velocity.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="acceleration.cpp" />
-    <ClCompile Include="environment.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="position.cpp" />
-    <ClCompile Include="seconds.cpp" />
-    <ClCompile Include="trajectory.cpp" />
-    <ClCompile Include="velocity.cpp" />
+    <ClCompile Include="SourceFiles\acceleration.cpp" />
+    <ClCompile Include="SourceFiles\environment.cpp" />
+    <ClCompile Include="SourceFiles\force.cpp" />
+    <ClCompile Include="SourceFiles\howitzer.cpp" />
+    <ClCompile Include="SourceFiles\main.cpp" />
+    <ClCompile Include="SourceFiles\mass.cpp" />
+    <ClCompile Include="SourceFiles\position.cpp" />
+    <ClCompile Include="SourceFiles\seconds.cpp" />
+    <ClCompile Include="SourceFiles\simulator.cpp" />
+    <ClCompile Include="SourceFiles\trajectory.cpp" />
+    <ClCompile Include="SourceFiles\userInput.cpp" />
+    <ClCompile Include="SourceFiles\velocity.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,4 +1,5 @@
 #pragma once
+
 #include "../HeaderFiles/acceleration.h"
 #include <cmath>
 

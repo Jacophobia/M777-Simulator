@@ -3,15 +3,15 @@
 //
 #pragma once
 
-#include "acceleration.h"
 #include "mass.h"
 
+class Mass;
 
 class Force
 {
 public:
    Force(double newtons = 0.0);
-//   double operator/(Mass mass) const;
+   double operator/(Mass mass) const;
 #ifndef DEBUG
 private:
 #endif

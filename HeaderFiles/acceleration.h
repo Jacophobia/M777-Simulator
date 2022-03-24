@@ -11,13 +11,13 @@ public:
    double getTotalAcceleration() const;
    double getDDX();
    double getDDY();
-   
+
    Acceleration operator += (Acceleration acceleration);
 #ifndef DEBUG
 private:
 #endif
    double ddx;
    double ddy;
-   
-   
+
+
 };
