@@ -19,3 +19,9 @@ double Velocity::operator*(const Velocity & rhs) const
 {
    return getTotalVelocity() * rhs.getTotalVelocity();
 }
+
+void Velocity::set(double dx, double dy)
+{
+   this->dx = dx;
+   this->dy = dy;
+}

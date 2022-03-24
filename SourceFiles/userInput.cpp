@@ -5,37 +5,34 @@
 #include "../HeaderFiles/userInput.h"
 
 UserInput::UserInput(bool left, bool right, bool up, bool down, bool space) :
-   left(left), right(right), up(up), down(down), space(space)
-{
-
-}
+   left(left), right(right), up(up), down(down), space(space){}
 
 bool UserInput::isLeft()
 {
-   return false;
+   return left;
 }
 
 bool UserInput::isRight()
 {
-   return false;
+   return right;
 }
 
 bool UserInput::isUp()
 {
-   return false;
+   return up;
 }
 
 bool UserInput::isDown()
 {
-   return false;
+   return down;
 }
 
 bool UserInput::isSpace()
 {
-   return false;
+   return space;
 }
 
 bool UserInput::isSpacePressed()
 {
-   return false;
+   return !prevSpace && space;
 }

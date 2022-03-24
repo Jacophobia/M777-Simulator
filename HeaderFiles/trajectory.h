@@ -11,7 +11,7 @@ class Trajectory
 {
 public:
 	Trajectory() = default;
-	Trajectory(Velocity velocity, Acceleration acceleration, Position position);
+	Trajectory(Position position, double angle);
 	Position getPosition();
 	void incrementTime(Seconds second);
 
