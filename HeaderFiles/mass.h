@@ -4,14 +4,15 @@
 
 #pragma once
 
-#include "acceleration.h"
 #include "force.h"
+#include "acceleration.h"
+class Force;
 
 class Mass
 {
 public:
    Mass(double kgs = 0.0);
-//   Force operator*(Acceleration acc);
+   Force operator*(Acceleration acc);
    double getKgs();
 private:
    double kgs;

@@ -18,39 +18,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="acceleration.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="environment.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="force.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="howitzer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="position.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="projectile.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="seconds.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="trajectory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="velocity.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DefaultFiles\ground.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="TestFiles\spies.h">
-      <Filter>Test Files</Filter>
-    </ClInclude>
     <ClInclude Include="TestFiles\test_Acceleration.h">
       <Filter>Test Files</Filter>
     </ClInclude>
@@ -75,27 +42,78 @@
     <ClInclude Include="TestFiles\test_Velocity.h">
       <Filter>Test Files</Filter>
     </ClInclude>
+    <ClInclude Include="HeaderFiles\acceleration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\environment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\force.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\howitzer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\mass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\position.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\projectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\seconds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\simulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\trajectory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\userInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\velocity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="acceleration.cpp">
+    <ClCompile Include="SourceFiles\acceleration.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="environment.cpp">
+    <ClCompile Include="SourceFiles\environment.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="SourceFiles\force.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="position.cpp">
+    <ClCompile Include="SourceFiles\howitzer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="seconds.cpp">
+    <ClCompile Include="SourceFiles\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="trajectory.cpp">
+    <ClCompile Include="SourceFiles\mass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="velocity.cpp">
+    <ClCompile Include="SourceFiles\position.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\seconds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\simulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\trajectory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\userInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\velocity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

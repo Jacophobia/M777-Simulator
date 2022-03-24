@@ -6,11 +6,11 @@
 
 Force::Force(double newtons) : N(newtons) {}
 
-//double Force::operator/(Mass mass) const
-//{
-//   double force = this->N;
-//   double kgs = mass.getKgs();
-//   return (force / kgs);
-//}
+double Force::operator/(Mass mass) const
+{
+   double force = this->N;
+   double kgs = mass.getKgs();
+   return (force / kgs);
+}
 
 
