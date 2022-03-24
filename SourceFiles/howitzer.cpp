@@ -58,23 +58,24 @@ Position Howitzer::getTipOfBarrelPos()
 
    double yPosRelativeToM777 = sin(barrelAngle) * barrelLength;
    double xPosRelativeToM777 = cos(barrelAngle) * barrelLength;
+   double tipXPos;
    if (barrelAngle > 3.14 / 2)
    {
-      double tipXPos = pos.getX() – xPosRelativeToM777;
+      tipXPos = pos.getX() - xPosRelativeToM777;
          //note the xPos is the M777 position 
    }
    else
    {
-      double tipXPos = pos.getX() + xPosRelativeToM777;
+      tipXPos = pos.getX() + xPosRelativeToM777;
          //note the yPos is the M777 position 
    }
 
-   double tipYPos = yPos + M777BaseHeight;
+   double tipYPos = pos.getY() + BASE_HEIGHT;
    return { tipXPos, tipYPos };
 }
 
 Trajectory Howitzer::fire()
 {
    
-   return Trajectory(Position(), barrelAngle, Velocity(), Acceleration());
+   return {getTipOfBarrelPos(), barrelAngle};
 }

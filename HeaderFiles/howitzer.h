@@ -29,6 +29,8 @@ private:
    void rotateRight(double angle);
    Position getTipOfBarrelPos();
 
+   double BASE_HEIGHT = 10.0;
+
    UserInput * input;
    Position pos;
    double barrelAngle;
