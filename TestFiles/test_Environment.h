@@ -3,7 +3,6 @@
 #include "../HeaderFiles/environment.h"
 #include <cassert>
 #include <cmath>
-#include "spies.h"
 #include "../HeaderFiles/velocity.h"
 #include "../HeaderFiles/acceleration.h"
 
@@ -114,7 +113,8 @@ private:
    static void getLinearInterpolation_testX1LowerThanX2()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double d0 = 0;
       double r0 = 1.225;
       double d1 = 1000;
@@ -124,13 +124,15 @@ private:
       double result = env.getLinearInterpolation(d0, r0, d1, r1, d);
       // verify
       assert(aboutEquals(result, 1.2024));
+      delete input;
    }  // teardown
 
    // x1 is equal to x2
    static void getLinearInterpolation_testX1EqualToX2()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double d0 = 0;
       double r0 = 1.225;
       double d1 = 0;
@@ -140,13 +142,15 @@ private:
       double result = env.getLinearInterpolation(d0, r0, d1, r1, d);
       // verify
       assert(aboutEquals(result, 1.225));
+      delete input;
    }  // teardown
 
    // x1 is greater than x2
    static void getLinearInterpolation_testX1GreaterThanX2()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double d0 = 1000;
       double r0 = 1.112;
       double d1 = 0;
@@ -156,13 +160,15 @@ private:
       double result = env.getLinearInterpolation(d0, r0, d1, r1, d);
       // verify
       assert(aboutEquals(result, 1.2024));
+      delete input;
    }  // teardown
 
    // x3 is before x1 and x2
    static void getLinearInterpolation_testX3BeforeX1OrX2()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double d0 = 200;
       double r0 = 1.2024;
       double d1 = 1000;
@@ -176,13 +182,15 @@ private:
          assert(false);
       }
       catch(...) {}
+      delete input;
    }  // teardown
 
    // x3 is after x1 and x2
    static void getLinearInterpolation_testX3AfterX1OrX2()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double d0 = 0;
       double r0 = 1.225;
       double d1 = 200;
@@ -196,13 +204,15 @@ private:
          assert(false);
       }
       catch(...) {}
+      delete input;
    }  // teardown
 
    // x3 is equal to x1
    static void getLinearInterpolation_testX3EqualsX1()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double d0 = 0.0;
       double r0 = 1.225;
       double d1 = 1000;
@@ -212,13 +222,15 @@ private:
       double result = env.getLinearInterpolation(d0, r0, d1, r1, d);
       // verify
       assert(aboutEquals(result, 1.225));
+      delete input;
    }  // teardown
 
    // x3 is equal to x2
    static void getLinearInterpolation_testX3EqualsX2()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double d0 = 0.0;
       double r0 = 1.225;
       double d1 = 1000;
@@ -228,70 +240,83 @@ private:
       double result = env.getLinearInterpolation(d0, r0, d1, r1, d);
       // verify
       assert(aboutEquals(result, 1.112));
+      delete input;
    }  // teardown
 
 
    static void getSpeedOfSound_testAltitudeIsZero()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double altitude = 0.0;
       // exercise
       double result = env.getSpeedOfSound(altitude);
       // verify
       assert(isEqual(result, 340.0));
+      delete input;
    }  // teardown
 
    void getSpeedOfSound_testAltitudeIs1000()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double altitude = 1000.0;
       // exercise
       double result = env.getSpeedOfSound(altitude);
       // verify
       assert(isEqual(result, 336.0));
+      delete input;
    }  // teardown
 
    void getSpeedOfSound_testAltitudeIs40000()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double altitude = 40000.0;
       // exercise
       double result = env.getSpeedOfSound(altitude);
       // verify
       assert(isEqual(result, 324.0));
+      delete input;
    }  // teardown
    void getSpeedOfSound_testAltitudeIsGreaterThan40000()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double altitude = 40001.0;
       // exercise
       double result = env.getSpeedOfSound(altitude);
       // verify
       assert(isEqual(result, 324.0));
+      delete input;
    }  // teardown
    void getSpeedOfSound_testAltitudeIs1500()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double altitude = 1500.0;
       // exercise
       double result = env.getSpeedOfSound(altitude);
       // verify
       assert(isEqual(result, 334.0));
+      delete input;
    }  // teardown
    void getSpeedOfSound_testAltitudeIs35000()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double altitude = 3500.0;
       // exercise
       double result = env.getSpeedOfSound(altitude);
       // verify
       assert(isEqual(result, 326.0));
+      delete input;
    }  // teardown
 
 
@@ -300,85 +325,99 @@ private:
    void getGravitationalAcceleration_testAltitudeIsZero()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double altitude = 0.0;
       // exercise
       Acceleration result = env.getGravitationalAcceleration(altitude);
       // verify
       assert(isEqual(result.ddy, -9.807));
       assert(isEqual(result.ddx, 0.0));
+      delete input;
    }  // teardown
 
    void getGravitationalAcceleration_testAltitudeIsNeg()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double altitude = -1.0;
       // exercise
       Acceleration result = env.getGravitationalAcceleration(altitude);
       // verify
       assert(isEqual(result.ddy, -9.807));
       assert(isEqual(result.ddx, 0.0));
+      delete input;
    }  // teardown
 
    void getGravitationalAcceleration_testAltitudeIs1000()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double altitude = 1000.0;
       // exercise
       Acceleration result = env.getGravitationalAcceleration(altitude);
       // verify
       assert(isEqual(result.ddy, -9.804));
       assert(isEqual(result.ddx, 0.0));
+      delete input;
    }  // teardown
 
    void getGravitationalAcceleration_testAltitudeIs25000()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double altitude = 25000.0;
       // exercise
       Acceleration result = env.getGravitationalAcceleration(altitude);
       // verify
       assert(isEqual(result.ddy, -9.730));
       assert(isEqual(result.ddx, 0.0));
+      delete input;
    }  // teardown
 
    void getGravitationalAcceleration_testAltitudeIsGreaterThan25000()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double altitude = 25000.0;
       // exercise
       Acceleration result = env.getGravitationalAcceleration(altitude);
       // verify
       assert(isEqual(result.ddy, -9.730));
       assert(isEqual(result.ddx, 0.0));
+      delete input;
    }  // teardown
 
    void getGravitationalAcceleration_testAltitudeIs1500()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double altitude = 1500.0;
       // exercise
       Acceleration result = env.getGravitationalAcceleration(altitude);
       // verify
       assert(isEqual(result.ddy, -9.8025));
       assert(isEqual(result.ddx, 0.0));
+      delete input;
    }  // teardown
 
    void getGravitationalAcceleration_testAltitudeIs22500()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double altitude = 22500.0;
       // exercise
       Acceleration result = env.getGravitationalAcceleration(altitude);
       // verify
       assert(isEqual(result.ddy, -9.7375));
       assert(isEqual(result.ddx, 0.0));
+      delete input;
    }  // teardown
 
 
@@ -389,78 +428,92 @@ private:
    void getAirDensity_testAltitudeIsZero()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double altitude = 0.0;
       // exercise
       double result = env.getAirDensity(altitude);
       // verify
       assert(result == 1.2250);
+      delete input;
    }  // teardown
 
    void getAirDensity_testAltitudeIsNeg()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double altitude = -1.0;
       // exercise
       double result = env.getAirDensity(altitude);
       // verify
       assert(result == 1.2250);
+      delete input;
    }  // teardown
 
    void getAirDensity_testAltitudeIs1000()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double altitude = 1000.0;
       // exercise
       double result = env.getAirDensity(altitude);
       // verify
       assert(result == 1.112);
+      delete input;
    }  // teardown
 
    void getAirDensity_testAltitudeIs80000()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double altitude = 80000.0;
       // exercise
       double result = env.getAirDensity(altitude);
       // verify
       assert(result == 0.0000185);
+      delete input;
    }  // teardown
 
    void getAirDensity_testAltitudeIsGreaterThan80000()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double altitude = 80001.0;
       // exercise
       double result = env.getAirDensity(altitude);
       // verify
       assert(isEqual(result, 0.0000185));
+      delete input;
    }  // teardown
 
    void getAirDensity_testAltitudeIs1500()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double altitude = 1500.0;
       // exercise
       double result = env.getAirDensity(altitude);
       // verify
       assert(aboutEquals(result, 1.0595));
+      delete input;
    }  // teardown
 
    void getAirDensity_testAltitudeIs75000()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double altitude = 75000.0;
       // exercise
       double result = env.getAirDensity(altitude);
       // verify
       assert(result == .00005065);
+      delete input;
    }  // teardown
 
 
@@ -468,89 +521,105 @@ private:
    void getDragCoefficient_testMachIsPoint3()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double mach = .300;
       // exercise
       double result = env.getDragCoefficient(mach);
       // verify
       assert(isEqual(result, .1629));
+      delete input;
    }  // teardown
 
    void getDragCoefficient_testMachIsLessThanPoint3()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double mach = .200;
       // exercise
       double result = env.getDragCoefficient(mach);
       // verify
       assert(result == .1629);
+      delete input;
    }  // teardown
 
    void getDragCoefficient_testMachIsNeg()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double mach = -.300;
       // exercise
       double result = env.getDragCoefficient(mach);
       // verify
       assert(result == .1629);
+      delete input;
    }  // teardown
 
    void getDragCoefficient_testMachIsPoint5()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double mach = .500;
       // exercise
       double result = env.getDragCoefficient(mach);
       // verify
       assert(result == .1659);
+      delete input;
    }  // teardown
 
    void getDragCoefficient_testMachIs5()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double mach = 5.0;
       // exercise
       double result = env.getDragCoefficient(mach);
       // verify
       assert(result == .2656);
+      delete input;
    }  // teardown
 
    void getDragCoefficient_testMachIsGreaterThan5()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double mach = 5.1;
       // exercise
       double result = env.getDragCoefficient(mach);
       // verify
       assert(result == .2656);
+      delete input;
    }  // teardown
 
    void getDragCoefficient_testMachIsPoint4()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double mach = .4;
       // exercise
       double result = env.getDragCoefficient(mach);
       // verify
       assert(result == .1644);
+      delete input;
    }  // teardown
 
    void getDragCoefficient_testMachIs3Point940()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       double mach = .940;
       // exercise
       double result = env.getDragCoefficient(mach);
       // verify
       assert(aboutEquals(result, .31485));
+      delete input;
    }  // teardown
 
 
@@ -559,7 +628,8 @@ private:
    void getForceOfAirResistance_testPosVelocityPosAltitude()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       env.isProjFired = true;
       env.proj.vel.dx = 336.0;
       env.proj.vel.dy = 0.0;
@@ -568,11 +638,13 @@ private:
       Force drag = env.getAirResistance();
       // verify
       assert(aboutEquals(drag.N, 503.600326)); // 0.5 * 0.4258 * 1.1120000 * (336 * 336) * 0.018842
+      delete input;
    }  // teardown
    void getForceOfAirResistance_testZeroVelocityPosAltitude()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       env.isProjFired = true;
       env.proj.vel.dx = 0.0;
       env.proj.vel.dy = 0.0;
@@ -581,11 +653,13 @@ private:
       Force drag = env.getAirResistance();
       // verify
       assert(drag.N == 0.0);
+      delete input;
    }  // teardown
    void getForceOfAirResistance_testNegVelocityPosAltitude()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       env.isProjFired = true;
       env.proj.vel.dx = -336.0;
       env.proj.vel.dy = 0.0;
@@ -594,11 +668,13 @@ private:
       Force drag = env.getAirResistance();
       // verify
       assert(aboutEquals(drag.N, 503.600326));  // 0.5 * 0.4258 * 1.1120000 * (-336 * -336) * 0.018842
+      delete input;
    }  // teardown
    void getForceOfAirResistance_testPosVelocZeroAltitude()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       env.isProjFired = true;
       env.proj.vel.dx = 340.0;
       env.proj.vel.dy = 0.0;
@@ -607,11 +683,13 @@ private:
       Force drag = env.getAirResistance();
       // verify
       assert(aboutEquals(drag.N, 568.063105));  // 0.5 * 0.4258 * 1.2250000 * (340 * 340) * 0.018842
+      delete input;
    }  // teardown
    void getForceOfAirResistance_testZeroVelocityZeroAltitude()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       env.isProjFired = true;
       env.proj.vel.dx = 0.0;
       env.proj.vel.dy = 0.0;
@@ -620,11 +698,13 @@ private:
       Force drag = env.getAirResistance();
       // verify
       assert(isEqual(drag.N, 0));
+      delete input;
    }  // teardown
    void getForceOfAirResistance_testNegVelocityZeroAltitude()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       env.isProjFired = true;
       env.proj.vel.dx = -340.0;
       env.proj.vel.dy = 0.0;
@@ -633,11 +713,13 @@ private:
       Force drag = env.getAirResistance();
       // verify
       assert(aboutEquals(drag.N, 568.063105));  // 0.5 * 0.4258 * 1.2250000 * (-340 * -340) * 0.018842
+      delete input;
    }  // teardown
    void getForceOfAirResistance_testPosVelocityNegAltitude()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       env.isProjFired = true;
       env.proj.vel.dx = 340.0;
       env.proj.vel.dy = 0.0;
@@ -649,11 +731,13 @@ private:
          assert(false);
       }
       catch (...) {}
+      delete input;
    }  // teardown
    void getForceOfAirResistance_testZeroVelocityNegAltitude()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       env.isProjFired = true;
       env.proj.vel.dx = 0.0;
       env.proj.vel.dy = 0.0;
@@ -665,11 +749,13 @@ private:
          assert(false);
       }
       catch (...) {}
+      delete input;
    }  // teardown
    void getForceOfAirResistance_testNegVelocityNegAltitude()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       env.isProjFired = true;
       env.proj.vel.dx = -340.0;
       env.proj.vel.dy = 0.0;
@@ -681,11 +767,13 @@ private:
          assert(false);
       }
       catch (...) {}
+      delete input;
    }  // teardown
    void getForceOfAirResistance_testSuperHighVelocity()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       env.isProjFired = true;
       env.proj.vel.dx = 100000000.0;
       env.proj.vel.dy = 0.0;
@@ -694,13 +782,15 @@ private:
       Force drag = env.getAirResistance();
       // verify
       assert(aboutEquals(drag.N, 30652165600000.008));  // 0.5 * 0.2656 * 1.2250000 * (100000000.0 * 100000000.0) * 0.018842
+      delete input;
    }  // teardown
 
 
    void getMach_testVelocityIsNeg()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       env.isProjFired = true;
       env.proj.vel.dx = -340.0;
       env.proj.vel.dy = 0.0;
@@ -709,11 +799,13 @@ private:
       double mach = env.getMach();
       // verify
       assert(mach == 1.0);
+      delete input;
    }  // teardown
    void getMach_testVelocityIsPos()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       env.isProjFired = true;
       env.proj.vel.dx = 340.0;
       env.proj.vel.dy = 0.0;
@@ -721,11 +813,13 @@ private:
       double mach = env.getMach();
       // verify
       assert(mach == 1.0);
+      delete input;
    }  // teardown
    void getMach_testVelocityIsZero()
    {
       // setup
-      Environment env;
+      UserInput * input = new UserInput();
+      Environment env(input);
       env.isProjFired = true;
       env.proj.vel.dx = 0;
       env.proj.vel.dy = 0;
@@ -733,6 +827,7 @@ private:
       double mach = env.getMach();
       // verify
       assert(mach == 0);
+      delete input;
    }  // teardown
 
 

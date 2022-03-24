@@ -9,13 +9,12 @@ class Ground
 public:
    Ground() = default;
 
-   virtual void update() {}
+   void update() {}
 
-   virtual void draw() {}
+   void draw() {}
 
-   virtual void reset() {}
+   void reset() {}
 #ifndef DEBUG
 private:
 #endif
-
 };

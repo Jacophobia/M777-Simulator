@@ -5,7 +5,7 @@
 #include <array>
 #include "../HeaderFiles/environment.h"
 
-Environment::Environment()
+Environment::Environment(UserInput * input) : howitzer(input)
 {
    proj.reset();
    howitzer.reset();

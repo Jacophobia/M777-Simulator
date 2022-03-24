@@ -13,7 +13,7 @@
 class Environment
 {
 public:
-   Environment();
+   Environment(UserInput * input);
    void update();
    void draw();
    void reset();
